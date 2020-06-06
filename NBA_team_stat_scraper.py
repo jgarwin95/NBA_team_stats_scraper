@@ -23,5 +23,3 @@ def main(years):
         standings_data = scrape_standings(soup, year)
         aggregated_data = aggregate_data(data_rows, standings_data)
         write_csv(file_name, col_labels_extended, aggregated_data)
-
-main('2020-2012')

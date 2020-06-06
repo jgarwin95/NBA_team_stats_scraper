@@ -3,9 +3,7 @@ import requests
 import csv
 import os
 from constants import *
-import logging
 
-logging.basicConfig(filename='log.log', level=logging.INFO)
 def parse_years(years):
     """Parse input string into list of years
 
